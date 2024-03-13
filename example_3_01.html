@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dasar pemrograman web</title>
+</head>
+
+<!-- 
+  - berikan komentar
+  - berikan atribut id atau class pada elemen
+  - gunakan semantic html/tag html yang sesuai fungsinya
+  - gunakan heading yang sesuai
+  - perhatikan struktur html dan buat dengan rapi 
+  - navigasi halaman yang dapat menuju ke bagian tertentu
+-->
+
+<body>
+  <header>
+    <h1 id="logo">Logo</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#catalog">Catalog</a></li>
+        <li><a href="#price">Price</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+    <hr>
+  </header>
+
+  <main>
+    <!-- article, img -->
+    <section id="catalog">
+      <h2>Catalog</h2>
+      <article>
+        <img
+          src="https://s3.bukalapak.com/img/3941683891/w-1000/kemeja_pria_cowok_kerja_kantor_formal_warna_grey_lengan_panj.jpg"
+          alt="Pakaian" height="250px">
+        <h3>Clothes</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum ipsam cum nam iusto repellat?
+          Perferendis eum sapiente alias explicabo minima cupiditate quaerat odit porro similique delectus nemo,
+          repudiandae vel distinctio.
+        </p>
+      </article>
+      <article>
+        <img src="https://cf.shopee.co.id/file/436fd1fddc0cd01bf8c22c226c543f8d" alt="Sepatu" height="250px">
+        <h3>Shoes</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum ipsam cum nam iusto repellat?
+          Perferendis eum sapiente alias explicabo minima cupiditate quaerat odit porro similique delectus nemo,
+          repudiandae vel distinctio.
+        </p>
+      </article>
+      <article>
+        <img src="https://th.bing.com/th/id/OIP.i4gdVZqFRQvjOfhrtYkixQHaHa?rs=1&pid=ImgDetMain" alt="Topi"
+          height="250px">
+        <h3>Hats</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum ipsam cum nam iusto repellat?
+          Perferendis eum sapiente alias explicabo minima cupiditate quaerat odit porro similique delectus nemo,
+          repudiandae vel distinctio.
+        </p>
+      </article>
+      <article>
+        <img
+          src="https://s3.bukalapak.com/img/388487759/w-1000/Jam_Tangan_Terbaru_2017_Emporio_Armani_Detik_Bawah_Dark_Brow.jpg"
+          alt="Jam tangan" height="250px">
+        <h3>Watches</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum ipsam cum nam iusto repellat?
+          Perferendis eum sapiente alias explicabo minima cupiditate quaerat odit porro similique delectus nemo,
+          repudiandae vel distinctio.
+        </p>
+      </article>
+      <article>
+        <img
+          src="https://s1.bukalapak.com/img/654019469/m-1000-1000/Tas_Ransel_Pria___Tas_Punggung___Tas_Gendong___Sekolah___Kan.jpg"
+          alt="Tas" height="250px">
+        <h3>Bags</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum ipsam cum nam iusto repellat?
+          Perferendis eum sapiente alias explicabo minima cupiditate quaerat odit porro similique delectus nemo,
+          repudiandae vel distinctio.
+        </p>
+      </article>
+    </section>
+
+    <!-- nested list -->
+    <section id="price">
+      <h2>Price</h2>
+      <ul>
+        <li>
+          Clothes
+          <ol>
+            <li>Cloth A: <strong>$200</strong></li>
+            <li>Cloth B: <strong>$230</strong></li>
+            <li>Cloth C: <strong>$170</strong></li>
+          </ol>
+        </li>
+        <li>
+          Shoes
+          <ol start="4">
+            <li>Shoe A: <strong>$100</strong></li>
+            <li>Shoe B: <strong>$130</strong></li>
+            <li>Shoe C: <strong>$170</strong></li>
+          </ol>
+        </li>
+        <li>
+          Hats
+          <ol>
+            <li>Hat A: <strong>$40</strong></li>
+            <li>Hat B: <strong>$30</strong></li>
+            <li>Hat C: <strong>$70</strong></li>
+          </ol>
+        </li>
+        <li>
+          Watches
+          <ol start="4">
+            <li>Watch A: <strong>$180</strong></li>
+            <li>Watch B: <strong>$270</strong></li>
+            <li>Watch C: <strong>$130</strong></li>
+          </ol>
+        </li>
+        <li>
+          Bags
+          <ol start="7" type="i">
+            <li>Bag A: <strong>$100</strong></li>
+            <li>Bag B: <strong>$530</strong></li>
+            <li>Bag C: <strong>$240</strong></li>
+          </ol>
+        </li>
+      </ul>
+    </section>
+
+    <!-- figure, blockquote, anchor -->
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, a. Nihil optio labore laborum dolore officia
+        consequuntur, nemo possimus neque repellat nisi commodi quia quidem iusto enim quis, accusantium adipisci.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, a. Nihil optio labore laborum dolore officia
+        consequuntur, nemo possimus neque repellat nisi commodi quia quidem iusto enim quis, accusantium adipisci.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, a. Nihil optio labore laborum dolore officia
+        consequuntur, nemo possimus neque repellat nisi commodi quia quidem iusto enim quis, accusantium adipisci.
+      </p>
+      <figure>
+        <blockquote cite="https://loremipsum.io/generator/">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, a. Nihil optio labore laborum dolore officia
+            consequuntur, nemo possimus neque repellat nisi commodi quia quidem iusto enim quis, accusantium adipisci.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, a. Nihil optio labore laborum dolore officia
+            consequuntur, nemo possimus neque repellat nisi commodi quia quidem iusto enim quis, accusantium adipisci.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, a. Nihil optio labore laborum dolore officia
+            consequuntur, nemo possimus neque repellat nisi commodi quia quidem iusto enim quis, accusantium adipisci.
+          </p>
+        </blockquote>
+        <figcaption>By Lorem Ipsum (<a href="https://loremipsum.io/generator/">source</a>)</figcaption>
+      </figure>
+    </section>
+  </main>
+
+  <footer>
+    <hr>
+    <p>&copy; Copyright 2024 - Example</p>
+  </footer>
+</body>
+
+</html>
