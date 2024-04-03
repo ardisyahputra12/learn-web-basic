@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dasar pemrograman web</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./example_6_01.css">
+</head>
+
+<body>
+  <header>
+    <h1 id="logo">Logo</h1>
+    <nav>
+      <ul class="nav-list">
+        <li><a class="nav-link" href="#">Home</a></li>
+        <li><a class="nav-link" href="#catalog">Catalog</a></li>
+        <li><a class="nav-link" href="#price">Price</a></li>
+        <li><a class="nav-link" href="#product">Product</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+        <li><a class="nav-link" href="#about">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- article, img -->
+    <section id="catalog">
+      <h2>Catalog</h2>
+      <div class="container">
+        <article class="card">
+          <img class="card-img"
+            src="https://s3.bukalapak.com/img/3941683891/w-1000/kemeja_pria_cowok_kerja_kantor_formal_warna_grey_lengan_panj.jpg"
+            alt="Pakaian">
+          <div class="card-body">
+            <h3 class="card-title">Clothes</h3>
+            <p class="card-desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum ipsam cum nam iusto repellat?
+              Perferendis eum sapiente alias explicabo minima cupiditate quaerat odit porro similique delectus nemo,
+              repudiandae vel distinctio.
+            </p>
+          </div>
+        </article>
+        <article class="card">
+          <img class="card-img" src="https://cf.shopee.co.id/file/436fd1fddc0cd01bf8c22c226c543f8d" alt="Sepatu">
+          <div class="card-body">
+            <h3 class="card-title">Shoes</h3>
+            <p class="card-desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum ipsam cum nam iusto repellat?
+              Perferendis eum sapiente alias explicabo minima cupiditate quaerat odit porro similique delectus nemo,
+              repudiandae vel distinctio.
+            </p>
+          </div>
+        </article>
+        <article class="card">
+          <img class="card-img" src="https://th.bing.com/th/id/OIP.i4gdVZqFRQvjOfhrtYkixQHaHa?rs=1&pid=ImgDetMain"
+            alt="Topi">
+          <div class="card-body">
+            <h3 class="card-title">Hats</h3>
+            <p class="card-desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum ipsam cum nam iusto repellat?
+              Perferendis eum sapiente alias explicabo minima cupiditate quaerat odit porro similique delectus nemo,
+              repudiandae vel distinctio.
+            </p>
+          </div>
+        </article>
+        <article class="card">
+          <img class="card-img"
+            src="https://blog.atome.id/wp-content/uploads/2021/04/Rekomendasi-Merek-Jam-Tangan-Pria.jpg"
+            alt="Jam tangan">
+          <div class="card-body">
+            <h3 class="card-title">Watches</h3>
+            <p class="card-desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum ipsam cum nam iusto repellat?
+              Perferendis eum sapiente alias explicabo minima cupiditate quaerat odit porro similique delectus nemo,
+              repudiandae vel distinctio.
+            </p>
+          </div>
+        </article>
+        <article class="card">
+          <img class="card-img" src="https://th.bing.com/th/id/OIP.QzO9ZYCr4FyBlNkIEJ2uaAHaHa?rs=1&pid=ImgDetMain"
+            alt="Tas">
+          <div class="card-body">
+            <h3 class="card-title">Bags</h3>
+            <p class="card-desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum ipsam cum nam iusto repellat?
+              Perferendis eum sapiente alias explicabo minima cupiditate quaerat odit porro similique delectus nemo,
+              repudiandae vel distinctio.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- nested list -->
+    <section id="price">
+      <h2>Price</h2>
+      <ul class="price-list">
+        <li>
+          Clothes
+          <ol>
+            <li>Cloth A: <strong>$200</strong></li>
+            <li>Cloth B: <strong>$230</strong></li>
+            <li>Cloth C: <strong>$170</strong></li>
+          </ol>
+        </li>
+        <li>
+          Shoes
+          <ol start="4">
+            <li>Shoe A: <strong>$100</strong></li>
+            <li>Shoe B: <strong>$130</strong></li>
+            <li>Shoe C: <strong>$170</strong></li>
+          </ol>
+        </li>
+        <li>
+          Hats
+          <ol>
+            <li>Hat A: <strong>$40</strong></li>
+            <li>Hat B: <strong>$30</strong></li>
+            <li>Hat C: <strong>$70</strong></li>
+          </ol>
+        </li>
+        <li>
+          Watches
+          <ol start="4">
+            <li>Watch A: <strong>$180</strong></li>
+            <li>Watch B: <strong>$270</strong></li>
+            <li>Watch C: <strong>$130</strong></li>
+          </ol>
+        </li>
+        <li>
+          Bags
+          <ol start="7" type="i">
+            <li>Bag A: <strong>$100</strong></li>
+            <li>Bag B: <strong>$530</strong></li>
+            <li>Bag C: <strong>$240</strong></li>
+          </ol>
+        </li>
+      </ul>
+    </section>
+
+    <section id="product">
+      <h2>Product</h2>
+      <table class="table-product">
+        <tr>
+          <th colspan="2">Catalog</th>
+          <td>Clothes</td>
+          <td>Shoes</td>
+          <td>Hats</td>
+          <td>Watches</td>
+          <td>Bags</td>
+        </tr>
+        <tr>
+          <th colspan="2">Image</th>
+          <td>
+            <img
+              src="https://s3.bukalapak.com/img/3941683891/w-1000/kemeja_pria_cowok_kerja_kantor_formal_warna_grey_lengan_panj.jpg"
+              alt="Pakaian">
+          </td>
+          <td>
+            <img src="https://cf.shopee.co.id/file/436fd1fddc0cd01bf8c22c226c543f8d" alt="Sepatu">
+          </td>
+          <td>
+            <img src="https://th.bing.com/th/id/OIP.i4gdVZqFRQvjOfhrtYkixQHaHa?rs=1&pid=ImgDetMain" alt="Topi">
+          </td>
+          <td>
+            <img src="https://blog.atome.id/wp-content/uploads/2021/04/Rekomendasi-Merek-Jam-Tangan-Pria.jpg"
+              alt="Jam tangan">
+          </td>
+          <td>
+            <img src="https://th.bing.com/th/id/OIP.QzO9ZYCr4FyBlNkIEJ2uaAHaHa?rs=1&pid=ImgDetMain" alt="Tas">
+          </td>
+        </tr>
+        <tr>
+          <th rowspan="6">Price</th>
+          <th rowspan="2">A</th>
+          <td>$200</td>
+          <td>$324</td>
+          <td>$423</td>
+          <td>$322</td>
+          <td>$756</td>
+        </tr>
+        <tr>
+          <td>$532</td>
+          <td>$203</td>
+          <td>$452</td>
+          <td>$547</td>
+          <td>$400</td>
+        </tr>
+        <tr>
+          <th rowspan="2">B</th>
+          <td>$632</td>
+          <td>$634</td>
+          <td>$988</td>
+          <td>$560</td>
+          <td>$344</td>
+        </tr>
+        <tr>
+          <td>$678</td>
+          <td>$432</td>
+          <td>$199</td>
+          <td>$399</td>
+          <td>$677</td>
+        </tr>
+        <tr>
+          <th rowspan="2">C</th>
+          <td>$632</td>
+          <td>$634</td>
+          <td>$988</td>
+          <td>$560</td>
+          <td>$783</td>
+        </tr>
+        <tr>
+          <td>$678</td>
+          <td>$432</td>
+          <td>$199</td>
+          <td>$399</td>
+          <td>$200</td>
+        </tr>
+
+        <!-- <thead>
+          <tr>
+            <th>Catalog</th>
+            <th>Image</th>
+            <th colspan="3" rowspan="3">Price</th>
+          </tr>
+          <tr>
+            <th>Cloth A</th>
+            <th>Cloth A</th>
+            <th>Cloth A</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Clothes</td>
+            <td>
+              <img
+                src="https://s3.bukalapak.com/img/3941683891/w-1000/kemeja_pria_cowok_kerja_kantor_formal_warna_grey_lengan_panj.jpg"
+                alt="Pakaian" height="100px">
+            </td>
+            <td>Cloth A</td>
+            <td>Cloth B</td>
+            <td>Cloth C</td>
+          </tr>
+        </tbody> -->
+      </table>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form>
+        <div class="contact-input">
+          <label for="username">Username</label>
+          <input type="text" name="username" id="username" placeholder="Your username" required>
+        </div>
+        <div class="contact-input">
+          <label for="phone">Phone Number</label>
+          <input type="tel" name="phone" id="phone" placeholder="Your phone number" required>
+        </div>
+        <div class="contact-input">
+          <label for="image">Image</label>
+          <input type="file" accept="image/png" name="image" id="image" required>
+        </div>
+        <div class="contact-input">
+          <label for="message">Message</label>
+          <textarea rows="4" cols="50" id="message" placeholder="Your message" required></textarea>
+        </div>
+        <button class="contact-btn contact-submit" type="submit">Send</button>
+        <button class="contact-btn contact-cancel" type="reset">Cancel</button>
+      </form>
+    </section>
+
+    <!-- figure, blockquote, anchor -->
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, a. Nihil optio labore laborum dolore officia
+        consequuntur, nemo possimus neque repellat nisi commodi quia quidem iusto enim quis, accusantium adipisci.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, a. Nihil optio labore laborum dolore officia
+        consequuntur, nemo possimus neque repellat nisi commodi quia quidem iusto enim quis, accusantium adipisci.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, a. Nihil optio labore laborum dolore officia
+        consequuntur, nemo possimus neque repellat nisi commodi quia quidem iusto enim quis, accusantium adipisci.
+      </p>
+      <figure>
+        <blockquote cite="https://loremipsum.io/generator/">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, a. Nihil optio labore laborum dolore officia
+            consequuntur, nemo possimus neque repellat nisi commodi quia quidem iusto enim quis, accusantium adipisci.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, a. Nihil optio labore laborum dolore officia
+            consequuntur, nemo possimus neque repellat nisi commodi quia quidem iusto enim quis, accusantium adipisci.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, a. Nihil optio labore laborum dolore officia
+            consequuntur, nemo possimus neque repellat nisi commodi quia quidem iusto enim quis, accusantium adipisci.
+          </p>
+        </blockquote>
+        <figcaption>By Lorem Ipsum (<a href="https://loremipsum.io/generator/" target="_blank">source</a>)</figcaption>
+      </figure>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; Copyright 2024 - Dasar pemrograman web</p>
+  </footer>
+</body>
+
+</html>
